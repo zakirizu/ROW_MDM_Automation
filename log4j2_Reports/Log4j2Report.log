@@ -3072,3 +3072,114 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 14:49:05.712 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: UAT_URL, VALUE: https://ctvt-uat.cotiviti.com/prweb/
 14:49:05.977 [main] INFO  utils.BaseClass - Error While Initializing the BrowserType : chrome. Environment:UAT
 14:49:07.352 [main] INFO  testScenarios.Ts_Admin - Exception occured while Executing the Test Case: UserManagement
+15:03:26.944 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+15:03:26.946 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+15:03:27.216 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: browserType
+15:03:27.217 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: browserType, VALUE: chrome
+15:03:27.217 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: zoom
+15:03:27.217 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: zoom, VALUE: 80%
+15:03:27.217 [main] INFO  utils.BaseClass - Browser Type is set to: chrome
+15:03:27.217 [main] INFO  utils.BaseClass - Intializing the Browser type: chrome
+15:03:28.579 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: highLightElement
+15:03:28.579 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: highLightElement, VALUE: yes
+15:03:28.581 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+15:03:28.581 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+15:03:28.596 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:03:28.596 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:03:28.596 [main] INFO  factory.Listeners - ***************************************************TEST CASE START: MyWork_TC_01_Validate_User_AbleTo_View_MyWork_Section******************************
+15:03:28.597 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:03:28.597 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:03:28.699 [main] INFO  utils.BaseClass - Error While Initializing the BrowserType : chrome. Environment:QA
+15:03:28.699 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_URL
+15:03:28.699 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_URL, VALUE: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+15:03:38.915 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+15:03:38.915 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+15:03:38.915 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+15:03:41.919 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+15:03:41.919 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_UserID
+15:03:41.919 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_UserID, VALUE: Admin
+15:03:41.947 [main] INFO  utils.KeyWords - Entering text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (1b101c7e9ea8f5389bdc3599bb5e0988)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+15:03:42.040 [main] INFO  utils.KeyWords - Entered text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (1b101c7e9ea8f5389bdc3599bb5e0988)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+15:03:42.041 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_Pwd
+15:03:42.041 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_Pwd, VALUE: admin123
+15:03:42.052 [main] INFO  utils.KeyWords - Entering text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (1b101c7e9ea8f5389bdc3599bb5e0988)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+15:03:42.128 [main] INFO  utils.KeyWords - Entered text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (1b101c7e9ea8f5389bdc3599bb5e0988)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+15:03:42.128 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+15:03:42.128 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+15:03:42.128 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+15:03:45.139 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+15:03:45.176 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (1b101c7e9ea8f5389bdc3599bb5e0988)] -> xpath: //button[@type='submit']] On Page: OrangeHRM
+15:04:01.656 [main] INFO  utils.KeyWords - Clicked on Element :Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']' On Page: OrangeHRM
+15:04:31.729 [main] INFO  utils.KeyWords - Exception occured while Clicking on Element :Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(@role,'menubar')]//span[text()='My Work']' On Page: OrangeHRM
+15:04:47.034 [main] INFO  testScenarios.Ts_MyWork - ----------------------------Test Case END----------------------------
+15:04:47.110 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: browserType
+15:04:47.110 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: browserType, VALUE: chrome
+15:04:47.110 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: zoom
+15:04:47.110 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: zoom, VALUE: 80%
+15:04:47.110 [main] INFO  utils.BaseClass - Browser Type is set to: chrome
+15:04:47.110 [main] INFO  utils.BaseClass - Intializing the Browser type: chrome
+15:04:48.097 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+15:04:48.097 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+15:04:48.099 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:04:48.099 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:04:48.099 [main] INFO  factory.Listeners - ***************************************************TEST CASE START: MyWork_TC_02_Validate_User_AbleTo_Select_MyWorkList_And_View_Headers******************************
+15:04:48.099 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:04:48.099 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+15:04:48.193 [main] INFO  utils.ReadDataFromExcel - RECOMMENDED: PLEASE MAKE THE TEST DATA SHEET TO READ ONLY MODE.
+15:04:48.193 [main] INFO  utils.ReadDataFromExcel - Reading Data from the Excel Sheet for TestCaseID: MyWork_TC_02
+15:04:48.265 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+15:04:48.267 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+15:04:48.268 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+15:04:48.361 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+15:04:48.363 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:04:48.363 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:04:48.363 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:04:48.364 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:04:48.365 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:04:48.371 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:04:48.372 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:04:48.377 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:04:48.378 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:04:48.378 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:04:48.379 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:04:48.379 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:04:48.380 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+15:04:48.412 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+15:04:48.412 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+15:04:48.454 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+15:04:48.458 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+15:04:48.462 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+15:04:48.464 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+15:04:48.467 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+15:04:48.469 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+15:04:48.470 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+15:04:48.472 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+15:04:48.473 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+15:04:48.475 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+15:04:48.477 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+15:04:48.478 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+15:04:48.479 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+15:04:48.480 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+15:04:48.484 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+15:04:48.490 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+15:04:48.507 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+15:04:48.511 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+15:04:48.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+15:04:48.515 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+15:04:48.516 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+15:04:48.518 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+15:04:48.521 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+15:04:48.525 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+15:04:48.527 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+15:04:48.530 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+15:04:48.535 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+15:04:48.545 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+15:04:48.549 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+15:04:48.562 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlinks6416type
+15:04:48.564 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cthyperlink0c85type
+15:04:48.574 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+15:04:48.576 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+15:04:48.580 [main] INFO  utils.ReadDataFromExcel - Successfully Read the Data from the Excel Sheet for TestCaseID: MyWork_TC_02
+15:04:48.580 [main] INFO  utils.BaseClass - Error While Initializing the BrowserType : chrome. Environment:QA
+15:04:48.581 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_URL
+15:04:48.581 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_URL, VALUE: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
