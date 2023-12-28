@@ -16,15 +16,15 @@ public class ExtendReport {
 		String Env 						= factory.Constants.Environment;
 		
 		reporter 	= new ExtentSparkReporter(Reportspath);
-		reporter.config().setDocumentTitle("ROW Automation Test Results");
-		reporter.config().setReportName("ROW MDM Application");
+		reporter.config().setDocumentTitle("Bluestone Automation");
+		reporter.config().setReportName("Orange HRM Application");
 		reporter.config().setTheme(Theme.STANDARD);
 		
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);	
-		extent.setSystemInfo("Application", "ROW");
-		extent.setSystemInfo("Manager Name", "Yedire, Srinivasulu");
-		extent.setSystemInfo("Tester Name", "Zakir Hussain Shaik");
+		extent.setSystemInfo("Application", "Orange HRM");
+		extent.setSystemInfo("Manager Name", "Zakir Hussain Shaik");
+		extent.setSystemInfo("Tester Name", "Bluestone Student");
 		extent.setSystemInfo("Environment", Env);
 		
 		return extent;
