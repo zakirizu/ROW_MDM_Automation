@@ -54,8 +54,20 @@ public class Pg_Admin {
 		return SearchResults_text;
 	}	
 
-
-
+	//WebElement for User Role Results
+	@FindBy(xpath = "//input[@placeholder='Type for hints...']")
+	private static WebElement EmployeeName_txtBox;		
+	public static WebElement getEmployeeName_txtBox() {
+		return EmployeeName_txtBox;
+	}	
+	
+	//WebElement for User Role Results
+	@FindBy(xpath = "//div[text()='John.Smith']")
+	private static WebElement UserNameResult_Txt;		
+	public static WebElement getUserNameResult_Txt() {
+		return UserNameResult_Txt;
+	}	
+	
 	
 
 }
