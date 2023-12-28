@@ -42,7 +42,7 @@ public class Pg_Admin {
 	
 	//WebElement Search Button under the System Users
 	@FindBy(xpath = "//button[@type='submit']")
-	private static WebElement Submit_Btn;		
+	private static WebElement Submit_Btn;	
 	public static WebElement getSubmit_Btn() {
 		return Submit_Btn;
 	}	
@@ -67,7 +67,15 @@ public class Pg_Admin {
 	public static WebElement getUserNameResult_Txt() {
 		return UserNameResult_Txt;
 	}	
+
 	
+	//WebElement for User Role Results
+	@FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
+	private static WebElement Add_Btn;		
+	public static WebElement getAdd_Btn() {
+		return Add_Btn;
+	}	
+		
 	
 
 }

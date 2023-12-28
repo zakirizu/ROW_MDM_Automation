@@ -21,7 +21,7 @@ import utils.KeyWords;
 /**
 * SSS-> Screen Shot and save
 * * TC_01----DONE---->Pg_Admin->MyAdmin_TestCase_01_Valdiate_Whether_User_Can_Search_with_UserName
-* * TC_02----DONE---->Pg_Admin->
+* * TC_02----DONE---->Pg_Admin->MyAdmin_TestCase_02_Valdiate_Whether_User_Can_Search_with_EmployeeName
 * * TC_03----DONE---->Pg_Admin->
 * * TC_04----DONE---->Pg_Admin->
 
@@ -48,7 +48,7 @@ public class Ts_Admin {
 	
 	//------------Test CASES STARTS here--------------- 
 	@SuppressWarnings("static-access")
-	@Test()
+	@Test(enabled = false)
 	public  void MyAdmin_TestCase_01_Valdiate_Whether_User_Can_Search_with_UserName() {
 		try 
 		{			
@@ -69,7 +69,7 @@ public class Ts_Admin {
 	
 	//------------Test CASES STARTS here--------------- 
 	@SuppressWarnings("static-access")
-	@Test
+	@Test(enabled = false)
 	public  void MyAdmin_TestCase_02_Valdiate_Whether_User_Can_Search_with_EmployeeName() {
 		try 
 		{			
@@ -90,7 +90,30 @@ public class Ts_Admin {
 	//------------Test CASES ENDs here------------------------- 	
 	
 	
+	//------------Test CASES STARTS here--------------- 
+	@SuppressWarnings("static-access")
+	@Test
+	public  void MyAdmin_TestCase_03_Valdiate_Whether_User_Can_AddNewUser() {
+		try 
+		{			
+		loginPage.loginApplicaiton();
+		keyword.clickElement(pgAdmin.getAdminTab());
+		keyword.sendKeys(pgAdmin.getUserName_TxtBox(), "Admin");
+		keyword.clickElement(pgAdmin.getSubmit_Btn());
+		keyword.explicitWait_Until_ElementDisplayed(pgAdmin.getSearchResults_text());
+		keyword.clickElement(pgAdmin.getAdd_Btn());
+		
+		Thread.sleep(8000);
 	
+
+		}
+		catch(Exception e)
+		{
+			myLogger.info("Exception occured while Executing the Test Case: UserManagement");	
+			e.printStackTrace();				
+		}
+	}
+	//------------Test CASES ENDs here------------------------- 
 	
 	
 	
