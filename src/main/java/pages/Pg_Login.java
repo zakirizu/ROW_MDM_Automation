@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 import utils.BaseClass;
 import utils.KeyWords;
 import utils.PropertiesFileReader;
@@ -27,10 +26,44 @@ public class Pg_Login extends BaseClass {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+	
+//WebElements
+	@FindBy(xpath = "//input[@name='username']")
+	private static WebElement userName_txtBox;
 	
 	
+	@FindBy(xpath = "//input[@name='password']")
+	public static WebElement passWord_txtBox;
 	
-	@SuppressWarnings("static-access")
+
+	@FindBy(xpath = "//button[@type='submit']")
+	public static WebElement login_Button;
+	
+	
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	
+
+	public static WebElement getUserName_txtBox() {
+		return userName_txtBox;
+	}
+
+	public static WebElement getPassWord_txtBox() {
+		return passWord_txtBox;
+	}
+
+	public static WebElement getLogin_Button() {
+		return login_Button;
+	}
+
+
+
+	
+	
+	 @SuppressWarnings("static-access")
 	public  void loginApplicaiton() throws InterruptedException {
 	
 	try 
@@ -72,55 +105,6 @@ public class Pg_Login extends BaseClass {
 	
 	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//WebElements
-	@FindBy(id = "txtUserID")
-	private static WebElement userName_txtBox;
-	
-	
-	@FindBy(id = "txtPassword")
-	public static WebElement passWord_txtBox;
-	
-	public WebDriver getDriver() {
-		return driver;
-	}
-
-	
-
-	public static WebElement getUserName_txtBox() {
-		return userName_txtBox;
-	}
-
-	public static WebElement getPassWord_txtBox() {
-		return passWord_txtBox;
-	}
-
-	public static WebElement getLogin_Button() {
-		return login_Button;
-	}
-
-
-
-	@FindBy(xpath = "//button[@id='sub']//span[text()='Log in']")
-	public static WebElement login_Button;
-	
-	
-	
 	
 	
 	

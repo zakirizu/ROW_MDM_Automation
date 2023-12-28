@@ -35,30 +35,24 @@ public class BaseClass {
 			if(browserType.equalsIgnoreCase("chrome"))
 				{
 					mylogger.info("Intializing the Browser type: "+browserType);
-					//WebDriverManager.chromedriver().setup();
-					//ChromeOptions options = new ChromeOptions();
-					//options.addArguments("--start-maximized");
 					driver = new ChromeDriver();
-					//((JavascriptExecutor)driver).executeScript("document.body.style.zoom='80%';");
+					
 				}
 			else if(browserType.equalsIgnoreCase("ie"))
 				{
 					mylogger.info("Intializing the Browser type: "+browserType);
-					//WebDriverManager.iedriver().setup();
 					driver = new InternetExplorerDriver();
 					
 				}
 			else if(browserType.equalsIgnoreCase("edge"))
 				{
 					mylogger.info("Intializing the Browser type: "+browserType);
-				 	//WebDriverManager.edgedriver().setup();
 				 	driver = new EdgeDriver();					 	
 				}
 			
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-			//ChromeOptions options = new ChromeOptions();
-			//options.addArguments("--start-maximized");
+			
 		}
 		
 		catch(Exception e)
