@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="factory.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>      
+        <class name="testScenarios.Ts_DashBoard">
+        	<methods>
+        		<include name="Dashboard_TC_02_Validate_UserIs_Able_To_CloseAll_Frames_In_DashBoard"></include>
+        	</methods>
+        </class> 
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
