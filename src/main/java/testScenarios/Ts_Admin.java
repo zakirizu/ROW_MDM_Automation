@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import pages.Pg_Admin;
 import pages.Pg_Login;
 import utils.BaseClass;
 import utils.KeyWords;
@@ -28,9 +30,10 @@ import utils.KeyWords;
 
 public class Ts_Admin {
 	static Logger myLogger = LogManager.getLogger(Ts_Admin.class.getName());
-	WebDriver driver;
-	Pg_Login loginPage;	
-	KeyWords  keyWord;
+	WebDriver 	driver;
+	Pg_Login 	loginPage;	
+	KeyWords  	keyword;
+	Pg_Admin  	pgAdmin;
 
 	// This is common piece of code which runs before every test case
 	@BeforeMethod
@@ -38,18 +41,22 @@ public class Ts_Admin {
 	{
 		driver 		= BaseClass.initializeDriver();
 		loginPage 	= new Pg_Login(driver);		
-		keyWord		= new KeyWords(driver);			
+		keyword		= new KeyWords(driver);	
+		pgAdmin		= new Pg_Admin(driver);
+		
 	}
 	
-	//------------Test CASES Start 
+	//------------Test CASES STARTS here--------------- 
 	@SuppressWarnings("static-access")
 	@Test
-	public  void MyWork_TC_01_Validate_User_AbleTo_View_MyWork_Section() {
+	public  void MyAdmin_TestCase_01_Valdiate_Whether_User_Can_Search_with_UserName() {
 		try 
-		{
-			
+		{			
 		loginPage.loginApplicaiton();
-		
+		keyword.clickElement(pgAdmin.getAdminTab());
+		keyword.sendKeys(pgAdmin.getUserName_TxtBox(), "Admin");
+		keyword.clickElement(pgAdmin.getSubmit_Btn());
+		keyword.explicitWait_Until_ElementDisplayed(pgAdmin.getSearchResults_text());
 		}
 		catch(Exception e)
 		{
@@ -57,7 +64,7 @@ public class Ts_Admin {
 			e.printStackTrace();				
 		}
 	}
-	
+	//------------Test CASES ENDs here------------------------- 
 
 	
 	// This is common piece of code which runs after every test case

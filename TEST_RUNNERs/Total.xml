@@ -8,8 +8,7 @@
 
   <test thread-count="1" name="Test">
     <classes>      
- 	    <class name="testScenarios.Ts_MyWork"></class>
-    	<class name="testScenarios.Ts_Reports"></class>
-     </classes>
+ 	    <class name="testScenarios.Ts_Admin"></class>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
