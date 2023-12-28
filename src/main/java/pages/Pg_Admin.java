@@ -16,10 +16,11 @@ public class Pg_Admin {
 	
 	
 	// This is temaplate to add a single webElement
-	@FindBy(xpath = "//input[@name='$PSearchPage$pRequestInfo$pRapidRequestID']")
-	private static WebElement RequestID;		
-	public static WebElement getRequestID() {
-		return RequestID;
+	//In the Below code you need to update the Xpath , WebElement name and the should be returned and add get infront of the Method Name
+	@FindBy(xpath = "//TagName[@attribute='value']")
+	private static WebElement UserNameDemo;		
+	public static WebElement getUserNameDemo() {
+		return UserNameDemo;
 	}
 
 	
