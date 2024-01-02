@@ -119,6 +119,71 @@ public class KeyWords {
 			Assert.assertTrue(false, "Not Able to Enter Text in WebElement:"+ele +"On Page: "+title);
 		}
 	}
+	
+	
+	
+	
+	
+	
+	/*
+	 @ Created Date		: 12-June-2023
+	 @ KEYWORD			: SelecValuesFromDDL_WithOutSelectClass
+	 @ Input Parameters	: ele = WebElement of TextBox , Index = Index of the Value which you want to select from the DDL
+	 @ Developer Name	: Zakir Hussain Shaik(Hussain, Shaik)
+	 @ Developer ID		: 163054
+	 @ Can Be Used For	: To Enter Text In AutoSuggestive TextBox
+	*/	
+	public static  void SelecValuesFromDDL_WithOutSelectClass(WebElement ele, int index) {
+
+		String title=null;
+		try 
+		{
+		title = driver.getTitle();	
+		
+		if(highLigtElement.equalsIgnoreCase("yes"))
+		{
+			myLogger.info("Selecting text:"+index+". In DDL WebElement: "+ele +" On Page: "+title);				
+			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);		
+			ele.click();
+			shortWait();
+			
+					
+			for(int i=0;i<index;i++)
+			{
+				ele.sendKeys(Keys.ARROW_DOWN);
+				shortWait();
+				
+			}
+			
+			ele.sendKeys(Keys.ENTER);
+		
+			
+			myLogger.info("Selected Index:"+index+". In textbox WebElement: "+ele +" On Page: "+title);	
+		}
+		else
+		{
+			myLogger.info("Selected text:"+index+". In textbox WebElement: "+ele +" On Page: "+title);	
+		
+			ele.click();
+			shortWait();					
+			for(int i=0;i<index;i++)
+			{
+				ele.sendKeys(Keys.ARROW_DOWN);
+				shortWait();
+				
+			}
+			
+			ele.sendKeys(Keys.ENTER);
+			myLogger.info("Entered text:"+index+". In textbox WebElement: "+ele +" On Page: "+title);	
+		}
+		}
+		catch(Exception e)
+		{
+			myLogger.info("Exception occured while Entered text: "+index+" in textbox WebElement: "+ele +" On Page: "+title);	
+			e.printStackTrace();
+			Assert.assertTrue(false, "Not Able to Enter Text in WebElement:"+ele +"On Page: "+title);
+		}
+	}
 
 	/*
 	 @ Created Date		: 12-June-2023
