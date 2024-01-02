@@ -3592,3 +3592,117 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 22:42:07.446 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (d2562c0c73ad8b13102946166532ecfc)] -> xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']] On Page: OrangeHRM
 22:42:23.025 [main] INFO  utils.KeyWords - Clicked on Element :Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']' On Page: OrangeHRM
 22:42:31.348 [main] INFO  testScenarios.Ts_Admin - ----------------------------Test Case END----------------------------
+14:05:28.309 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+14:05:28.311 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+14:05:28.715 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: browserType
+14:05:28.715 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: browserType, VALUE: chrome
+14:05:28.715 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: zoom
+14:05:28.716 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: zoom, VALUE: 80%
+14:05:28.716 [main] INFO  utils.BaseClass - Browser Type is set to: chrome
+14:05:28.716 [main] INFO  utils.BaseClass - Intializing the Browser type: chrome
+14:05:32.188 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: highLightElement
+14:05:32.188 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: highLightElement, VALUE: yes
+14:05:32.191 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+14:05:32.192 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+14:05:32.227 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:05:32.227 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:05:32.228 [main] INFO  factory.Listeners - ***************************************************TEST CASE START: MyAdmin_TestCase_03_Valdiate_Whether_User_Can_AddNewUser******************************
+14:05:32.228 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:05:32.228 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:05:32.416 [main] INFO  utils.BaseClass - Error While Initializing the BrowserType : chrome. Environment:QA
+14:05:32.417 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_URL
+14:05:32.417 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_URL, VALUE: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+14:05:42.988 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:05:42.990 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:05:42.990 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:05:46.000 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:05:46.001 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_UserID
+14:05:46.002 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_UserID, VALUE: Admin
+14:05:46.071 [main] INFO  utils.KeyWords - Entering text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+14:05:46.316 [main] INFO  utils.KeyWords - Entered text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+14:05:46.317 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_Pwd
+14:05:46.317 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_Pwd, VALUE: admin123
+14:05:46.349 [main] INFO  utils.KeyWords - Entering text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+14:05:46.636 [main] INFO  utils.KeyWords - Entered text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+14:05:46.636 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:05:46.637 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:05:46.637 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:05:49.642 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:05:49.774 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //button[@type='submit']] On Page: OrangeHRM
+14:06:06.234 [main] INFO  utils.KeyWords - Clicked on Element :Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']' On Page: OrangeHRM
+14:06:06.338 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //span[text()='Leave']] On Page: OrangeHRM
+14:06:07.957 [main] INFO  utils.KeyWords - Clicked on Element :[[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: //span[text()='Leave']] On Page: OrangeHRM
+14:06:08.001 [main] INFO  utils.KeyWords - Entering text:2024-01-01. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: (//div[@class='oxd-date-input']//input[@class='oxd-input oxd-input--active'])[1]] On Page: OrangeHRM
+14:06:08.307 [main] INFO  utils.KeyWords - Entered text:2024-01-01. In textbox WebElement: [[ChromeDriver: chrome on windows (a905a98f904c2278fe3a5fac917910ff)] -> xpath: (//div[@class='oxd-date-input']//input[@class='oxd-input oxd-input--active'])[1]] On Page: OrangeHRM
+14:06:16.811 [main] INFO  testScenarios.Ts_Admin - ----------------------------Test Case END----------------------------
+14:07:16.631 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+14:07:16.634 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+14:07:17.017 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: browserType
+14:07:17.017 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: browserType, VALUE: chrome
+14:07:17.017 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: zoom
+14:07:17.018 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: zoom, VALUE: 80%
+14:07:17.018 [main] INFO  utils.BaseClass - Browser Type is set to: chrome
+14:07:17.018 [main] INFO  utils.BaseClass - Intializing the Browser type: chrome
+14:07:19.010 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: highLightElement
+14:07:19.012 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: highLightElement, VALUE: yes
+14:07:19.018 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+14:07:19.019 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+14:07:19.064 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:07:19.064 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:07:19.065 [main] INFO  factory.Listeners - ***************************************************TEST CASE START: MyAdmin_TestCase_03_Valdiate_Whether_User_Can_AddNewUser******************************
+14:07:19.065 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:07:19.065 [main] INFO  factory.Listeners - **************************************************************************************************************************************************************
+14:07:19.284 [main] INFO  utils.BaseClass - Error While Initializing the BrowserType : chrome. Environment:QA
+14:07:19.284 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_URL
+14:07:19.284 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_URL, VALUE: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+14:07:27.724 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:27.725 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:27.725 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:30.728 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:30.729 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_UserID
+14:07:30.730 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_UserID, VALUE: Admin
+14:07:30.786 [main] INFO  utils.KeyWords - Entering text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+14:07:30.832 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:30.833 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:30.834 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:33.845 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:33.996 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:33.997 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:33.998 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:37.003 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:37.164 [main] INFO  utils.KeyWords - Entered text:Admin. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //input[@name='username']] On Page: OrangeHRM
+14:07:37.164 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: QA_Pwd
+14:07:37.165 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: QA_Pwd, VALUE: admin123
+14:07:37.215 [main] INFO  utils.KeyWords - Entering text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+14:07:37.257 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:37.258 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:37.259 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:40.267 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:40.369 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:40.370 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:40.370 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:43.385 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:43.529 [main] INFO  utils.KeyWords - Entered text:admin123. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //input[@name='password']] On Page: OrangeHRM
+14:07:43.530 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:07:43.530 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:07:43.531 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:07:46.536 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:07:46.637 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //button[@type='submit']] On Page: OrangeHRM
+14:08:02.900 [main] INFO  utils.KeyWords - Clicked on Element :Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']' On Page: OrangeHRM
+14:08:02.991 [main] INFO  utils.KeyWords - Clicking on Element :[[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //span[text()='Leave']] On Page: OrangeHRM
+14:08:04.651 [main] INFO  utils.KeyWords - Clicked on Element :[[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: //span[text()='Leave']] On Page: OrangeHRM
+14:08:04.714 [main] INFO  utils.KeyWords - Entering text:2024-01-01. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: (//div[@class='oxd-date-input']//input[@class='oxd-input oxd-input--active'])[1]] On Page: OrangeHRM
+14:08:04.763 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:08:04.763 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:08:04.764 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:08:07.779 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:08:07.879 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: shortWait
+14:08:07.880 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: shortWait, VALUE: 3000
+14:08:07.881 [main] INFO  utils.KeyWords - ----Short Wait Start---. Waiting for Seconds: 3000
+14:08:10.886 [main] INFO  utils.KeyWords - ----Short Wait End---. Waited for Seconds: 3000
+14:08:11.070 [main] INFO  utils.KeyWords - Entered text:2024-01-01. In textbox WebElement: [[ChromeDriver: chrome on windows (37e67b56c2e1513fae562b71ea11d15a)] -> xpath: (//div[@class='oxd-date-input']//input[@class='oxd-input oxd-input--active'])[1]] On Page: OrangeHRM
+14:08:19.601 [main] INFO  testScenarios.Ts_Admin - ----------------------------Test Case END----------------------------
+16:58:07.072 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+16:58:07.075 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA
+17:15:02.369 [main] INFO  utils.PropertiesFileReader - Reading the Data from ProperyFile.Getting Value for Key: Env
+17:15:02.372 [main] INFO  utils.PropertiesFileReader - Successfully Read the Data from Property File. KEY: Env, VALUE: QA

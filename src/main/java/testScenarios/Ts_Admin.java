@@ -79,6 +79,7 @@ public class Ts_Admin {
 		keyword.clickElement(pgAdmin.getSubmit_Btn());
 		keyword.explicitWait_Until_ElementDisplayed(pgAdmin.getUserNameResult_Txt());
 		Thread.sleep(5000);
+		
 
 		}
 		catch(Exception e)
@@ -89,44 +90,7 @@ public class Ts_Admin {
 	}
 	//------------Test CASES ENDs here------------------------- 	
 	
-	
-	//------------Test CASES STARTS here--------------- 
-	@SuppressWarnings("static-access")
-	@Test
-	public  void MyAdmin_TestCase_03_Valdiate_Whether_User_Can_AddNewUser() {
-		try 
-		{			
-		loginPage.loginApplicaiton();
-		keyword.clickElement(pgAdmin.getAdminTab());
-		keyword.sendKeys(pgAdmin.getUserName_TxtBox(), "Admin");
-		keyword.clickElement(pgAdmin.getSubmit_Btn());
-		keyword.explicitWait_Until_ElementDisplayed(pgAdmin.getSearchResults_text());
-		keyword.clickElement(pgAdmin.getAdd_Btn());
-		
-		Thread.sleep(8000);
-	
 
-		}
-		catch(Exception e)
-		{
-			myLogger.info("Exception occured while Executing the Test Case: UserManagement");	
-			e.printStackTrace();				
-		}
-	}
-	//------------Test CASES ENDs here------------------------- 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	// This is common piece of code which runs after every test case
 	@AfterMethod

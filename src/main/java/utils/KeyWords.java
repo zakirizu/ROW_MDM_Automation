@@ -54,15 +54,19 @@ public class KeyWords {
 		if(highLigtElement.equalsIgnoreCase("yes"))
 		{
 			myLogger.info("Entering text:"+value+". In textbox WebElement: "+ele +" On Page: "+title);				
-			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);		
+			js.executeScript("arguments[0].setAttribute('style','background:yellow;border:2px solid red;')", ele);	
+			shortWait();
 			ele.clear();
+			shortWait();
 			ele.sendKeys(value);
 			myLogger.info("Entered text:"+value+". In textbox WebElement: "+ele +" On Page: "+title);	
 		}
 		else
 		{
 			myLogger.info("Entering text:"+value+". In textbox WebElement: "+ele +" On Page: "+title);	
+			shortWait();
 			ele.clear();
+			shortWait();;
 			ele.sendKeys(value);
 			myLogger.info("Entered text:"+value+". In textbox WebElement: "+ele +" On Page: "+title);	
 		}
