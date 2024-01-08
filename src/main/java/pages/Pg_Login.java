@@ -1,6 +1,5 @@
 package pages;
 import java.time.Duration;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -11,16 +10,12 @@ import utils.BaseClass;
 import utils.KeyWords;
 import utils.PropertiesFileReader;
 
-
-
 public class Pg_Login extends BaseClass {
 	
 	public static WebDriver driver ;
 	static KeyWords keyWord = new KeyWords(driver);
 	static Logger myLogger = LogManager.getLogger(Pg_Login.class.getName());
 	String Environment = PropertiesFileReader.getProperty("Env");
-	
-	
 	public Pg_Login(WebDriver driver)
 	{
 		this.driver = driver;
